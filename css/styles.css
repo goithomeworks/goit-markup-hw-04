@@ -271,11 +271,12 @@ a {
   gap: 24px;
 }
 
-.third-section .social-list .list-item {
+.third-section .social-list .list-item  {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .third-section .social-list .list-item .social-link {
   width: 100%;
@@ -285,14 +286,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
   fill: #f4f4fd;
 }
 
-.third-section .social-list .list-item a:hover,
-.third-section .social-list .list-item a:focus {
+.third-section .social-list .list-item .social-link:hover,
+.third-section .social-list .list-item .social-link:focus {
   background-color: #404bbf;
 }
 
