@@ -265,13 +265,17 @@ a {
   background-color: #ffffff;
 }
 
+.third-section__list>.list-item img {
+  /* object-fit: contain; */
+}
+
 .third-section .social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.third-section .social-list .list-item  {
+.third-section .social-list .list-item {
   width: 40px;
   height: 40px;
 }
@@ -297,7 +301,6 @@ a {
 .third-section .social-list .list-item .social-link:focus {
   background-color: #404bbf;
 }
-
 
 
 .list-item__container {
